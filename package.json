@@ -1,0 +1,14 @@
+{
+  "name": "banking-dashboard-automation",
+  "version": "1.0.0",
+  "description": "Playwright tests for a sample banking/finance dashboard",
+  "scripts": {
+    "test": "npx playwright test",
+    "show-report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
+  }
+}
